@@ -2,6 +2,4 @@ bin/
 obj/
 out/
 .vscode/
-Dockerfile
-.dockerignore
 *.tar
