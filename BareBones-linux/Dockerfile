@@ -24,8 +24,3 @@ RUN mkdir ./rootfs-extracted && \
 # just scratch and the custom linux rootfs
 FROM scratch
 COPY --from=build /buildroot/rootfs-extracted /
-
-# ONCE I"M BACK...
-# 1. check if this succeeded...
-# 2. test bb:latest
-# 3. commit
